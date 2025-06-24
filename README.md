@@ -5,7 +5,6 @@
 [![Wix Studio](https://img.shields.io/badge/Built%20with-Wix%20Studio-000?logo=wix&logoColor=white)](https://www.wix.com/studio)  
 [![Hosted on Railway](https://img.shields.io/badge/Server-Railway-7752FE?logo=railway)](https://railway.app)  
 [![OpenAI Integrated](https://img.shields.io/badge/AI%20Engine-OpenAI-black?logo=openai)](https://platform.openai.com/)  
-[![Code Status](https://img.shields.io/badge/Code-Private-lightgrey?logo=github)](https://github.com/Vasooook)  
 [![Upwork Hire](https://img.shields.io/badge/Available%20on-Upwork-brightgreen?logo=upwork)](https://www.upwork.com/freelancers/~017752a03bdc66874d)
 
 ---
@@ -45,18 +44,6 @@ All backend logic is distributed between:
 
 ---
 
-## 🧱 Architecture
-
-```
-Wix Studio (.web.js)   ⟶   Railway Proxy   ⟶   Binance API
-        ⬇                         ⬇               ⬇
-  User config & UI       Market fetch + auth     Order exec
-        ⬇                         ⬇               ⬇
-      Signal request       OpenAI GPT model      Risk filter
-```
-
----
-
 ## 🛠 Tech Stack
 
 - **Wix Studio** — backend logic and database control
@@ -64,13 +51,6 @@ Wix Studio (.web.js)   ⟶   Railway Proxy   ⟶   Binance API
 - **Binance Futures API** — real market execution
 - **OpenAI GPT** — signal generation based on prompt + market metrics
 - **Node.js / JavaScript** — server logic and signal prep
-
----
-
-## 🔒 Notes
-
-This repository is part of a real-world trading system.  
-Source code is private — for inquiries, adaptations, or similar builds, feel free to reach out.
 
 ---
 
