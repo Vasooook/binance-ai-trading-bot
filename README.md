@@ -15,7 +15,7 @@
 
 This bot executes automated crypto futures trades on **Binance** using a combination of technical market analysis, OpenAI-generated signals, and strict risk control logic.
 
-> Originally developed on **Wix Studio** by request of a professional trader.  
+> Originally developed on **Wix Studio** by request of a client.  
 > You are free to fork and adapt this logic to your own needs and strategy.
 
 The backend architecture is distributed:
