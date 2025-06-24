@@ -1,0 +1,23 @@
+{
+  "name": "binance-railway",
+  "version": "1.0.0",
+  "description": "Crypto trading bot integrating Binance API and WebSocket event handling",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "binance",
+    "bot"
+  ],
+  "author": "Development Studio - 365",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.2"
+  }
+}
